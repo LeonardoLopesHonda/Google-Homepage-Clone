@@ -1,0 +1,110 @@
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #202124;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    width: 100%;
+}
+
+button{
+    margin: 5px;
+}
+
+button:nth-child(2) {
+    margin-right: 14px;
+}
+
+/* Classes Utilitárias */
+
+.btn {
+    background-color: transparent;
+    border: none;
+    border-radius: 100%;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+/* Classes */
+
+.apps {
+    width: 3.3%;
+    padding: 6px;
+
+    transition: 500ms;
+}
+
+.apps img {
+    width: 100%;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.8%;
+    padding: 6px;
+
+    transition: 600ms;
+}
+
+.profile img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.main-content {
+    height: 55%;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    gap: 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+
+    color: white;
+    font-family: monospace;
+}
+
+.logo img {
+    width: 90%;
+}
+
+.search-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar-input {
+    width: 100%;
+    padding: 5px;
+
+    color: white;
+    font-size: 18px;
+
+    background-color: transparent;
+    border-radius: 25px;
+    border: 1px solid gray;
+}
